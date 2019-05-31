@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sum Upp</string>
+    <string name="game_name">QUICK SUM \n GAME</string>
+    <string name="best_score" formatted="false">BEST SCORE: %1$s</string>
+    <string name="play">PLAY</string>
+    <string name="setting">SETTING</string>
+    <string name="score" formatted="false">SCORE: %1$s</string>
+    <string name="best" formatted="false">BEST: %1$s</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="player_score" formatted="false">YOUR SCORE\n %1$s</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="home">HOME</string>
+    <string name="change_language">Change Language</string>
+    <string name="japanese">Japanese</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="game_music">Game music</string>
+    <string name="leader_board">LEADERBOARD</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter">Enter</string>
+
+    <string name="twitter_callback_url">https://twitter.com/AnhDucDang2</string>
+    <string name="twitter_consumer_key">C7hhQJVWmmme1zbeGaVKW0qFM</string>
+    <string name="twitter_consumer_secret">a7PoXM73gik0H3xCCAzq6AIJfX6kI9VnXclDROEzld69PTBxyt</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <string name="enter_name">Enter name</string>
+    <string name="twitter">twitter</string>
+    <string name="goto_leaderboard">goto_leaderboard</string>
+    <string name="introduction">Introduction</string>
+    <string name="description">1.This app is design for kids from 7-12 years old \n \n    2. This app is free and use for non-commercial purpose \n \n   3.Author: Dang Anh Duc \n \n 4.Ognization: James Cook University,Australia</string>
+</resources>

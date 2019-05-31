@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvMusic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:text="@string/game_music"
+            android:layout_margin="5dp"
+            />
+
+        <ToggleButton
+            android:id="@+id/tgMusic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#5c5e84"
+            android:text="ToggleButton"
+            android:textColor="@color/text_color"
+            android:textSize="26sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="70dp"
+            android:checked="true"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvLanguageChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:shadowRadius="2"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:text="@string/change_language"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:id="@+id/btn_vi"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:background="@drawable/btn_red"
+        android:textColor="@color/text_color"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="@string/vietnamese"
+        />
+
+    <Button
+        android:id="@+id/btn_eng"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:background="@drawable/btn_green"
+        android:textColor="@color/text_color"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="@string/english"
+        />
+    <Button
+        android:id="@+id/btn_ja"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:background="@drawable/btn_yellow"
+        android:textColor="@color/text_color"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:text="@string/japanese"
+        />
+</LinearLayout>

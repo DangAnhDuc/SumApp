@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sum Upp</string>
+    <string name="action_setting">Cài Đặt</string>
+    <string name="game_name">QUICK SUM \n GAME</string>
+    <string name="best_score">Kỉ Lục : %1$s</string>
+    <string name="play">Bắt Đầu</string>
+    <string name="score">Điểm : %1$s</string>
+    <string name="best">Kỉ Lục : %1$s</string>
+    <string name="game_over">Kết Thúc</string>
+    <string name="player_score">Điểm Của Bạn : %1$s</string>
+    <string name="try_again">Thử Lại</string>
+    <string name="home">Trang Chủ</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="change_language">Thay Ngôn Ngữ</string>
+    <string name="japanese">Tiếng Nhật</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="leader_board">Bảng xếp Hạng</string>
+    <string name="game_music">Nhạc nền</string>
+    <string name="enter_your_name">Nhập tên của bạn</string>
+    <string name="enter">Nhập</string>
+
+
+    <string name="twitter_callback_url">https://twitter.com/AnhDucDang2</string>
+    <string name="twitter_consumer_key">C7hhQJVWmmme1zbeGaVKW0qFM</string>
+    <string name="twitter_consumer_secret">a7PoXM73gik0H3xCCAzq6AIJfX6kI9VnXclDROEzld69PTBxyt</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <string name="enter_name">Enter name</string>
+    <string name="twitter">twitter</string>
+    <string name="goto_leaderboard">goto_leaderboard</string>
+
+</resources>
